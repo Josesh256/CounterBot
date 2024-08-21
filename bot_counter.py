@@ -65,7 +65,7 @@ async def show_x_links_count(update: Update, context: ContextTypes.DEFAULT_TYPE)
 # Función principal para configurar y ejecutar el bot
 def main() -> None:
     # Reemplaza 'YOUR_TOKEN_HERE' por el token de tu bot
-    application = ApplicationBuilder().token("6960790751:AAEOpt83y-8VjnB6KLVvh1Hi3lWeIyPqM7w").build()
+    application = ApplicationBuilder().token("").build()
 
     # Configurar el manejador del comando /start
     application.add_handler(CommandHandler("start", start))
